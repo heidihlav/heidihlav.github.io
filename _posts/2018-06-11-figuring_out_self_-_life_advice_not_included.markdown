@@ -13,7 +13,9 @@ You can't figure out who self is and when to use self without considering its en
 I have two cats. The female cat, Medea, has amber eyes, and the male cat, Bhindi has green eyes. Medea is a spotted tabby, and Bhindi is a swirled tabby. Bhindi likes to nap and Medea likes to bat around her jingly ball. I'm going to make Medea and Bhindi and give them their favorite activities to do. Then we can talk about who is "self" in the code below.
 
 In code form:
+
 ```
+
 class Cat
 
         attr_accessor :eyes, :fur, :sex, :name
@@ -34,6 +36,7 @@ class Cat
 				end
 				
 			end
+			
 			```
 			
 If I make a Bhindi and a Medea, (```Bhindi = Cat.new()```) I can tell them to do their favorite activities. ```Bhindi.take_nap => "Bhindi wants to sleep on my keyboard."``` In the two activity methods above, "self" would be the *instance*  of cat, or the cat who I call to do the activity. The instance Bhindi would be the explicit receiver of #take_nap, but "Self" is the implicit receiver of #take_nap. Which leads me to my favorite and easiest to remember clue as to who is "self" in a method.
