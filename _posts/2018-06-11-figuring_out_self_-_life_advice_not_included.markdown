@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Figuring out "self" - (Life advice not included.)"
-date:       2018-06-12 01:42:55 +0000
+title:      "Figuring out self - Life advice not included."
+date:       2018-06-11 21:42:57 -0400
 permalink:  figuring_out_self_-_life_advice_not_included
 ---
 
